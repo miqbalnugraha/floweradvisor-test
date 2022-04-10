@@ -4,7 +4,7 @@
 - Inside your project folder, open the terminal and "run composer update"
 - Run "copy .env.example .env"
 - Run "php artisan key:generate"
-- Don't forget make a database for your project at localhost/phpmyadmin. You can name it anything (ex: astronacci_test)
+- Don't forget make a database for your project at localhost/phpmyadmin. You can name it anything (ex: floweradvisor)
 - Once the database is created, you can make adjustments to the database settings in the ".env" file
 - Back to your terminal, run "php artisan migrate"
 - Run "php artisan db:seed"
