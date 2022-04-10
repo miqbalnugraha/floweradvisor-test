@@ -10,3 +10,4 @@
 - Run "php artisan db:seed"
 - Lastly run "php artisan serve"
 - ***IMPORTANT***. Due to the limitations of the callback API, it is expected to run the application at **http://localhost:8000** (*not http://127.0.0:8000*)
+- For *Forget Password* feature, please visit https://mailtrap.io and then login with email: miqbalnugrahaaa@gmail.com password: 12345678. Open the inboxes to access the reset password confirmation.
