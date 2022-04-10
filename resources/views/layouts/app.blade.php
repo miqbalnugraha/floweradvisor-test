@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="{{asset('plugins')}}/fontawesome-free/css/all.min.css">
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="icon" href="{{ url('favicon.png') }}">
 </head>
 
 <body>

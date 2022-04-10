@@ -13,14 +13,18 @@
                                 <div class="alert alert-success" role="alert">
                                     {{ session('status') }}
                                 </div>
-                            @endif
+                    @endif
                     <div class="col d-flex justify-content-center">                     
                             <div class="card" style="width: 40rem; margin-left: 15px; text-align: center;">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ Auth::User()->name }}</h5>
                                     <h6 class="card-subtitle mb-2 text-muted">Welcome!</h6>
-                                    <input type="text" value="HALLOW10" id="myInput">
-                                    <button class="btn btn-primary" onclick="myFunction()">Copy text</button>
+                                    <div class="col d-flex justify-content-center mt-4">
+                                        <input type="text" value="HALLOW10" id="myInput" style="text-align:center;" disabled>
+                                    </div>     
+                                    <div class="col d-flex justify-content-center mt-2">
+                                        <button class="btn btn-primary" onclick="myFunction()">Copy text</button>
+                                    </div>                                    
                                 </div>
                             </div>    
                     </div>                        
