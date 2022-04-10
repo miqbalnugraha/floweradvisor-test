@@ -18,8 +18,15 @@
                             <div class="card" style="width: 40rem; margin-left: 15px; text-align: center;">
                                 <div class="card-body">
                                     <h5 class="card-title">{{ Auth::User()->name }}</h5>
-                                    <h6 class="card-subtitle mb-2 text-muted">Welcome!</h6>
-                                    <div class="col d-flex justify-content-center mt-4">
+                                    <h6 class="card-subtitle text-muted">Welcome!</h6>                                  
+                                </div>
+                            </div>    
+                    </div>          
+                    <div class="col d-flex justify-content-center mt-3">                     
+                            <div class="card" style="width: 40rem; margin-left: 15px; text-align: center;">
+                                <div class="card-body">
+                                <h5 class="card-title">Use Coupon</h5>
+                                    <div class="col d-flex justify-content-center">
                                         <input type="text" value="HALLOW10" id="myInput" style="text-align:center;" disabled>
                                     </div>     
                                     <div class="col d-flex justify-content-center mt-2">
@@ -27,7 +34,7 @@
                                     </div>                                    
                                 </div>
                             </div>    
-                    </div>                        
+                    </div>              
                     <div class="col d-flex justify-content-center mt-3">
                         <div class="row">
                             <div class="card" style="width: 40rem; margin-left: 15px; text-align: center;">

@@ -94,6 +94,16 @@
         </main>    
           
     </div>
+    <!-- Footer -->
+<footer class="footer text-center text-lg-start bg-light text-muted">
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © {{date('Y')}}
+    <a class="text-reset fw-bold" target="_blank" href="https://www.floweradvisor.com.ph/">FlowerAdvisor</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
     
     <!-- jQuery -->
     <script src="{{asset('plugins')}}/jquery/jquery.min.js"></script>
@@ -103,22 +113,4 @@
     <script src="{{asset('plugins')}}/select2/js/select2.full.min.js"></script>
     @yield('js')
 </body>
-
-<!-- Footer -->
-<footer class="text-center text-lg-start bg-light text-muted">
-  <!-- Section: Social media -->
-  <section
-    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom"
-  >
-  </section>
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
-    © {{date('Y')}}
-    <a class="text-reset fw-bold" target="_blank" href="https://www.floweradvisor.com.ph/">FlowerAdvisor</a>
-  </div>
-  <!-- Copyright -->
-</footer>
-<!-- Footer -->
-
 </html>
