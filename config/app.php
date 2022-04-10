@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'FlowerAdvisor-Test'),
+    'name' => 'FlowerAdvisor - Test',
 
     /*
     |--------------------------------------------------------------------------
